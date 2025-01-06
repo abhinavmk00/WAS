@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading Styles */
+h1 {
+    color: #4a90e2; /* Blue color for the main heading */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.5;
+    margin: 10px 20px;
+}
+
+/* List Styles */
+ul, ol {
+    list-style-position: inside;
+    margin: 10px 40px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+/* Div Styles */
+div {
+    border: 2px solid #cccccc;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional Enhancements */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+iframe {
+    border: none;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+audio, video {
+    display: block;
+    margin: 10px auto;
+}
