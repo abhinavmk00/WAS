@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        HTML DOM innerHTML Property
+    </title>
+</head>
+
+<body style="text-align: center">
+    <h1 style="color:green">
+        GeeksforGeeks
+    </h1>
+    <h2>
+        DOM innerHTML Property
+    </h2>
+    <p id="P">A computer science portal for geeks.</p>
+
+
+    <button onclick="geek()">Try it</button>
+    <p id="p"></p>
+
+    <script>
+        function geek() {
+            let x = document.getElementById("P").innerHTML;
+            document.getElementById("p").innerHTML = x;
+            document.getElementById("p").style.color = "green";
+	    document.body.style.backgroundColor = "red";
+        }
+    </script>
+</body>
+
+</html>
