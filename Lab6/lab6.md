@@ -140,12 +140,50 @@ abhi@abhi-Lenovo-IdeaPad-S145-15IKB:~$ wafw00f manipal.edu
 yes
 
 ## Search for exposed environment configuration files
-
-## Look for log files that may contain sensitive information
-
-## Find database backup files
-
-## Find live camera feeds
-
-## Search for open IoT device
+https://www.manipal.edu/robots.txt
+```
+User-agent: *
+Disallow: /bin/
+Disallow: /etc/clientcontext/
+Disallow: /etc/cloudservices/
+Disallow: /etc/commerce/
+Disallow: /etc/cqtools/
+Disallow: /etc/dam/
+Disallow: /etc/forms/
+Disallow: /etc/importers/
+Disallow: /etc/manipal/
+Disallow: /etc/mobile/
+Disallow: /etc/msm/
+Disallow: /etc/notification/
+Disallow: /etc/packages/
+Disallow: /etc/replication/
+Disallow: /etc/reports/
+Disallow: /etc/scaffolding/
+Disallow: /etc/security/
+Disallow: /etc/segmentation/
+Disallow: /etc/social/
+Disallow: /etc/tenants/
+Disallow: /etc/versioning/
+Disallow: /etc/virtual-repositories/
+Disallow: /etc/workflow/
+Disallow: /lib/
+Disallow: /apps/
+Disallow:/content/mu/lp/thank-you.html
+Disallow:/content/mu/lp/dp-thank-you.html
+Disallow: /content/dam/manipal/mu/documents/MU Prospectus_2015.pdf
+Disallow: /content/dam/manipal/mu/mit/documents/A4.5.6 list of debarred students.pdf
+Disallow: *.pdf$
+Disallow: /mit.html_blank
+Disallow: /NewsRoom/*
+Disallow: /NEWSROOM/*
+Disallow: /Subsite/*
+Disallow: /newsroom/*
+Disallow: /dhruva-auth.manipaltech.net:4502/*
+Disallow: /dhruva-pub.manipaltech.net:4504/*
+Disallow: /content/mcods-manipal/mcods-news/mcods-news-list/manipal-internation-dental-summer-training-2016.html
+Disallow: /content/mcods-manipal/mcods-news/mcods-events-list/midst-20161.html
+Disallow: https://mu-uat.manipaltech.net/*
+Disallow: http://aemauthor.manipaltech.net:4502/*
+Disallow: http://124.124.128.89/*
+```
 
